@@ -1,0 +1,91 @@
+<!--pages/skill/skill.wxml-->
+<view class="padding">
+  <view class="padding-sm bg-white flex margin-bottom-sm">
+    <view>
+      <image class="cu-avatar lg bg-white" src="/image/icon/ide.png"></image>
+    </view>
+    <view class="margin-left-sm">
+      <text class="text-bold text-lg">开发工具</text>
+      <view>
+        VS Code、HBuilder、WebStorm、SubSublime、Atom
+      </view>
+    </view>
+  </view>
+  <view class="padding-sm bg-white flex">
+    <view>
+      <image class="cu-avatar lg bg-white" src="/image/icon/h5.png"></image>
+    </view>
+    <view class="margin-left-sm">
+      <text class="text-bold text-lg">Web开发</text>
+      <view>
+        Html5、CSS3、JavaScript、React、Node.js
+      </view>
+    </view>
+  </view>
+  <view class="cu-bar bg-white  margin-top">
+				<view class="action">
+					<text class="cuIcon-title text-blue"></text>
+					Spring Boot /Ssm
+				</view>
+			</view>
+			<view class="padding bg-white">
+				<view class="cu-progress round striped active">
+					<view class="bg-blue" style="width:{{loading?'65%':''}};">80%</view>
+				</view>
+			</view>
+      <view class="cu-bar bg-white  margin-top">
+				<view class="action">
+					<text class="cuIcon-title text-orange"></text>
+					MySql等数据库
+				</view>
+			</view>
+			<view class="padding bg-white">
+				<view class="cu-progress round striped active">
+					<view class="bg-orange" style="width:{{loading?'65%':''}};">60%</view>
+				</view>
+			</view>
+			<view class="cu-bar bg-white  margin-top">
+				<view class="action">
+					<text class="cuIcon-title text-yellow"></text>
+					HTML /CSS /jQuery /JavaScript
+				</view>
+			</view>
+			<view class="padding bg-white">
+				<view class="cu-progress round striped active">
+					<view class="bg-yellow" style="width:{{loading?'70%':''}};">70%</view>
+				</view>
+			</view>
+			<view class="cu-bar bg-white  margin-top">
+				<view class="action">
+					<text class="cuIcon-title text-olive"></text>
+					ElementUI /Vue
+				</view>
+			</view>
+			<view class="padding bg-white">
+				<view class="cu-progress round striped active">
+					<view class="bg-olive" style="width:{{loading?'65%':''}};">60%</view>
+				</view>
+			</view>
+			<view class="cu-bar bg-white  margin-top">
+				<view class="action">
+					<text class="cuIcon-title text-mauve"></text>
+					小程序开发
+				</view>
+			</view>
+			<view class="padding bg-white">
+				<view class="cu-progress round striped active">
+					<view class="bg-mauve" style="width:{{loading?'65%':''}};">60%</view>
+				</view>
+			</view>
+			<view class="cu-bar bg-white  margin-top">
+				<view class="action">
+					<text class="cuIcon-title text-cyan"></text>
+					Git / Github
+				</view>
+			</view>
+			<view class="padding bg-white">
+				<view class="cu-progress round striped active">
+					<view class="bg-cyan" style="width:{{loading?'70%':''}};">70%</view>
+				</view>
+			</view>
+</view>

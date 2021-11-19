@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/skill/skill",
+    "pages/project/project"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0080ff",
+    "navigationBarTitleText": "个人简历",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "tabBar": {
+    "selectedColor": "#0080ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/image/tab/info0.png",
+        "selectedIconPath": "/image/tab/info1.png",
+        "text": "基本信息"
+      },
+      {
+        "pagePath": "pages/skill/skill",
+        "iconPath": "/image/tab/skill0.png",
+        "selectedIconPath": "/image/tab/skill1.png",
+        "text": "专业技能"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "iconPath": "/image/tab/project0.png",
+        "selectedIconPath": "/image/tab/project1.png",
+        "text": "项目经验"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

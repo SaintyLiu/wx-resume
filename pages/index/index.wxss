@@ -1,0 +1,32 @@
+@import '../../iconfont.wxss';
+
+.wechat{
+  width: 680rpx;
+  height: 680rpx;
+}
+
+.edu,.self,self-title{
+  height: 1px;
+  border-top:1px solid #ddd
+}
+
+.edu::before{
+  content: '教育背景';
+  position: relative;
+  top: -25rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: #fff;
+  padding: 0 40rpx;
+}
+
+.self::before{
+  content: '自我评价';
+  position: relative;
+  top: -25rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: #fff;
+  padding: 0 40rpx;
+}
+

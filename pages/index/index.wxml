@@ -1,0 +1,65 @@
+<view class="padding content content-main">
+  <view class="padding-xl radius shadow-warp bg-white margin-top">
+    <view class="flex justify-center">
+      <image class="cu-avatar xl round" src="/image/avataaars.png"></image>
+    </view>
+    <view class="flex justify-center margin-top">
+      <text class="text-bold">阿巴阿巴</text>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text>期望岗位：前端开发</text>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text>男</text>
+      <text class="margin-left-sm">28岁</text>
+      <text class="margin-left-sm">5年工作经验</text>
+    </view>
+    <view class="flex justify-around margin-top-sm">
+      <view bindtap="showModal" data-target="Image">
+        <text class="cuIcon-weixin text-xl text-blue"></text>
+        <text class="margin-left-xs">添加微信</text>
+      </view>
+      <view bindtap="call">
+        <text class="cuIcon-phone text-xl text-blue"></text>
+        <text class="margin-left-xs">拨打电话</text>
+      </view>
+      <view bindtap="saveContact">
+        <text class="cuIcon-addressbook text-xl text-blue"></text>
+        <text class="margin-left-xs">添加通讯录</text>
+      </view>
+    </view>
+  </view>
+  <view class="padding-xl radius shadow-warp bg-white margin-top">
+    <view class="cuIcon-medalfill text-xl text-blue text-center"></view>
+    <view class="edu margin-top text-center text-bold"></view>
+    <view class="margin-top-lg">
+      <text class="cuIcon-time"></text>
+      <text class="margin-left-sm">2019.9-2022.6</text>
+    </view>
+    <view class="margin-top-sm">
+      <text class="cuIcon-home"></text>
+      <text class="margin-left-sm">淘宝大学</text>
+    </view>
+    <view class="margin-top-sm">
+      <text class="cuIcon-attention"></text>
+      <text class="margin-left-sm">计算机科学与技术</text>
+    </view>
+  </view>
+
+  <!-- 自我评价 -->
+  <view class="padding-xl radius shadow-warp bg-white margin-top">
+    <view class="cuIcon-appreciate text-xl text-blue text-center"></view>
+    <view class="self margin-top text-center text-bold"></view>
+    <view class="margin-top-sm padding-sm">对待工作责任感强，细致认真，积极向上，有较强的团队意识。喜欢与他人交往、热爱生活、乐于助人。自学能力较强，刻苦努力，不断要求自己、提升自己。同时善于观察周围的事物，善于收集资料分析问题，并能快速解决问题。</view>
+  </view>
+</view>
+
+<!-- 展示个人微信二维码 -->
+<view class="cu-modal {{modalName=='Image'?'show':''}}">
+  <view class="cu-dialog">
+    <image class="wechat" src="/image/WechatIMG193.jpeg"></image>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">我知道了</view>
+    </view>
+  </view>
+</view>

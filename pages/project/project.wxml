@@ -1,0 +1,59 @@
+<!--pages/project/project.wxml-->
+<view class="padding">
+  <view class="cu-timeline">
+    <view class="cu-item text-blue">
+    <view class="content">
+      <view class="flex justify-between align-center">
+        <view class="cu-capsule radius">
+          <text class="cu-tag bg-blue">前端开发</text>
+          <text class="cu-tag line-blue">2020.1-2020.5</text>
+        </view>
+      </view>
+      <view class="flex margin-top-sm">
+        <text class="flex-sub">项目名称</text>
+        <text class="flex-treble">电子商务网站</text>
+      </view>
+      <view class="flex margin-top-sm">
+        <text class="flex-sub">开发环境</text>
+        <text class="flex-treble">React + TypeScript</text>
+      </view>
+      <view class="flex margin-top-sm">
+        <text class="flex-sub">项目简介</text>
+        <text class="flex-treble">B2C性质的购物网站，专卖电子产品</text>
+      </view>
+      <view class="flex margin-top-sm">
+        <text class="flex-sub">个人职能</text>
+        <text class="flex-treble">负责登陆、注册、商品管理、订单管理等模块的开发、测试工作</text>
+      </view>
+    </view>
+    </view>
+  </view>
+  <view class="cu-timeline">
+    <view class="cu-item">
+    <view class="content">
+      <view class="flex justify-between align-center">
+        <view class="cu-capsule radius">
+          <text class="cu-tag bg-blue">前端开发</text>
+          <text class="cu-tag line-blue">2020.1-2020.5</text>
+        </view>
+      </view>
+      <view class="flex margin-top-sm">
+        <text class="flex-sub">项目名称</text>
+        <text class="flex-treble">电子商务网站</text>
+      </view>
+      <view class="flex margin-top-sm">
+        <text class="flex-sub">开发环境</text>
+        <text class="flex-treble">React + TypeScript</text>
+      </view>
+      <view class="flex margin-top-sm">
+        <text class="flex-sub">项目简介</text>
+        <text class="flex-treble">B2C性质的购物网站，专卖电子产品</text>
+      </view>
+      <view class="flex margin-top-sm">
+        <text class="flex-sub">个人职能</text>
+        <text class="flex-treble">负责登陆、注册、商品管理、订单管理等模块的开发、测试工作</text>
+      </view>
+    </view>
+    </view>
+  </view>
+</view>
